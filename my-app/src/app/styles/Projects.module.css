@@ -1,0 +1,40 @@
+/* Project card container */
+.projectCard {
+  position: relative;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 2rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  text-align: center;
+}
+
+.projectCard:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  transform: translateY(-5px);
+}
+
+/* Eye icon container */
+.eyeIconContainer {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 0.5rem;
+  border-radius: 50%;
+  transition: background-color 0.3s ease;
+}
+
+.eyeIconContainer:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.eyeIcon {
+  color: white;
+  font-size: 1.5rem;
+  transition: transform 0.3s ease;
+}
+
+.eyeIconContainer:hover .eyeIcon {
+  transform: scale(1.1);
+}
